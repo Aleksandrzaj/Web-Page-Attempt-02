@@ -1,0 +1,65 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background-color: #EFEDED;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  margin: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li, p, a {
+  font-size: 1.6rem;
+  font-weight: regular;
+  line-height: 150%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+svg {
+  width: 100%;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.cta-button a {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+.cta-button svg {
+  width: 2rem;
+  height: 2rem;
+}/*# sourceMappingURL=global.css.map */
